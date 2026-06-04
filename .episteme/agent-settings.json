@@ -1,0 +1,7 @@
+{
+  "lastChangelogVersion": "0.78.0",
+  "quietStartup": false,
+  "packages": [
+    "./extensions"
+  ]
+}

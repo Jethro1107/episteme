@@ -1,0 +1,12 @@
+{
+  "name": "@episteme/extensions",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "fuse.js": "^7.0.0",
+    "zotero-api-client": "^0.48.0"
+  },
+  "pi": {
+    "extensions": ["./source-manager.ts"]
+  }
+}

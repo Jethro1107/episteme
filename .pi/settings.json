@@ -1,0 +1,10 @@
+{
+  "lastChangelogVersion": "0.77.0",
+  "defaultProvider": "minimax",
+  "defaultModel": "MiniMax-M2.7",
+  "packages": [
+    "npm:pi-subagents",
+    "npm:pi-mcp-adapter",
+    "npm:@juicesharp/rpiv-ask-user-question"
+  ]
+}

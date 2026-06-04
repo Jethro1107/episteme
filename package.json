@@ -1,0 +1,41 @@
+{
+  "name": "episteme",
+  "version": "0.1.0",
+  "description": "Knowledge work harness built on pi coding agent",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "episteme": "./bin/episteme.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node ./bin/episteme.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "knowledge",
+    "research",
+    "writing",
+    "pi",
+    "agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "zotero-api-client": "^0.48.0",
+    "fuse.js": "^7.0.0",
+    "@earendil-works/pi-coding-agent": "^0.78.0",
+    "@earendil-works/pi-tui": "^0.78.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
